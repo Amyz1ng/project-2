@@ -17,27 +17,31 @@
 <img class="hand-gestures" src="Assets/images/RockPaperScissorsLizardSpock.webp" alt="hand-gestures">
 <div class="container">
     <h1>Rock Paper Scissors Lizard Spock</h1>
+<section class="game-area">
 <div class="choices">
-    <div class="choice" data-choice="rock">Rock<i class="fa-regular fa-hand-back-fist"></i></div>
-    <div class="choice" data-choice="paper">Paper<i class="fa-regular fa-hand"></i></div>
-    <div class="choice" data-choice="scissors">Scissors<i class="fa-regular fa-hand-scissors"></i></div>
-    <div class="choice" data-choice="lizard">Lizard <i class="fa-regular fa-hand-lizard"></i></div>
-    <div class="choice" data-choice="spock">Spock<i class="fa-regular fa-hand-spock"></i></div>
+    <p>Make a choice:</p>
+     <button aria-label="Rock" data-choice="1" class="choice">Rock<i class="fa-regular fa-hand-back-fist"></i></button>
+     <button aria-label="Paper" data-choice="2" class="choice">Paper<i class="fa-regular fa-hand"></i></button>
+     <button aria-label="Scissors" data-choice="3" class="choice">Scissors<i class="fa-regular fa-hand-scissors"></i></button>
+     <button aria-label="Lizard" data-choice="4" class="choice">Lizard <i class="fa-regular fa-hand-lizard"></i></button>
+     <button aria-label="spock" data-choice="5" class="choice">Spock <i class="fa-regular fa-hand-spock"></i></button>
 </div>
+<div id="messsages"></div>
+<div class="player">
+    <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+
+</div>
+<div class="computer">
+    <h3 class="scores">Computer score: <span id="player-score">0</span></h3>
+    
+</div>
+</section>
+<footer>
 <div class="result">Choose your weapon!</div>
 <button id="play-again">Play Again</button>
 </div>
 
-
-
-
-
-
-
-
-
-
-
     <script src="assets/js/script.js"></script> 
+</footer>
 </body>
 </html>
