@@ -20,31 +20,25 @@ function getResult(playerChoice, computerChoice){
     let result = document.getElementById("result");
 
     if (playerChoice === computerChoice) {
-		
         document.getElementById("result").innerText = "Tie"
     }else if(playerChoice == 'rock'){
         if(computerChoice == 'paper' || computerChoice == 'spock'){
-            
             document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            
             incrementPlayer();
             document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'scissors'){
         if(computerChoice == 'rock' || computerChoice == 'spock'){
-            
             document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            
             incrementPlayer();
             document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'paper'){
         if(computerChoice == 'scissors' || computerChoice == 'lizard'){
-            
             document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
@@ -53,21 +47,17 @@ function getResult(playerChoice, computerChoice){
         }
     }else if(playerChoice == 'lizard'){
         if(computerChoice == 'scissors' || computerChoice == 'rock'){
-            
             document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            alert("Player won");
             incrementPlayer();
             document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'spock'){
         if(computerChoice == 'paper' || computerChoice == 'lizard'){
-            
             document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            
             incrementPlayer();
             document.getElementById("result").innerText = "Player Won"
         }
