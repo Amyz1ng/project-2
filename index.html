@@ -2,11 +2,8 @@
 <html lang="en">
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/59e56de75d.js" crossorigin="anonymous"></script>
     <title>Rock Paper Scissors Lizard Spock</title>
 </head>
@@ -20,11 +17,11 @@
 <section class="game-area">
 <div class="choices">
     <p>Make a choice:</p>
-     <button aria-label="Rock" data-choice="1" class="choice">Rock<i class="fa-regular fa-hand-back-fist"></i></button>
-     <button aria-label="Paper" data-choice="2" class="choice">Paper<i class="fa-regular fa-hand"></i></button>
-     <button aria-label="Scissors" data-choice="3" class="choice">Scissors<i class="fa-regular fa-hand-scissors"></i></button>
-     <button aria-label="Lizard" data-choice="4" class="choice">Lizard <i class="fa-regular fa-hand-lizard"></i></button>
-     <button aria-label="spock" data-choice="5" class="choice">Spock <i class="fa-regular fa-hand-spock"></i></button>
+     <button aria-label="Rock" data-type="rock" class="choice">Rock<i class="fa-regular fa-hand-back-fist"></i></button>
+     <button aria-label="Paper" data-type="paper" class="choice">Paper<i class="fa-regular fa-hand"></i></button>
+     <button aria-label="Scissors" data-type="scissors" class="choice">Scissors<i class="fa-regular fa-hand-scissors"></i></button>
+     <button aria-label="Lizard" data-type="lizard" class="choice">Lizard <i class="fa-regular fa-hand-lizard"></i></button>
+     <button aria-label="Spock" data-type="spock" class="choice">Spock <i class="fa-regular fa-hand-spock"></i></button>
 </div>
 <div id="messsages"></div>
 <div class="player">
@@ -32,7 +29,7 @@
 
 </div>
 <div class="computer">
-    <h3 class="scores">Computer score: <span id="player-score">0</span></h3>
+    <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
     
 </div>
 </section>

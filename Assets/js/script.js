@@ -1,37 +1,61 @@
-/**
- * Declare constants for Dom elements
- * and possible choices
- */
 
-const buttons = document.getElementsByClassName("control");
-const playerScore = document.getElementById("player-score");
-const computerScore = document.getElementById("computer-score");
-const playerImage = document.getElementById("player-image");
-const computerImage = document.getElementById("computer-image");
-const message = document.getElementById("messages");
-const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button");
 
-/**
- * Add event listener to all the buttons
- */
-for (let button of buttons) {
-    button.addEventListener("click", function() {
-        let playerChoice = this.getAttribute("data-choice");
-        playGame(playerChoice);    
-    });
+    for (let button of buttons) {
+        button.addEventListener("click", function() {
+        const playerChoice = this.getAttribute("data-type");
+        const choices = ["rock", "paper", "scissors", "spock", "lizard"];
+        const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+        console.log(computerChoice);
+        console.log(playerChoice);
+        getResult(playerChoice, computerChoice);
+        });
+    }
+});
+
+function getResult(playerChoice, computerChoice){
+    let result = document.getElementById('result');
+    if (playerChoice === computerChoice) {
+		alert("tie");
+    }else if(playerChoice == 'rock'){
+        if(computerChoice == 'paper' || computerChoice == 'spock'){
+            alert("Computer won");
+        } else{
+            alert("Player won");
+        }
+    }else if(playerChoice == 'scissors'){
+        if(computerChoice == 'rock' || computerChoice == 'spock'){
+            alert("Computer won");
+        } else{
+            alert("Player won");
+        }
+    }else if(playerChoice == 'paper'){
+        if(computerChoice == 'scissors' || computerChoice == 'lizard'){
+            alert("Computer won");
+        } else{
+            alert("Player won");
+        }
+    }else if(playerChoice == 'lizard'){
+        if(computerChoice == 'scissors' || computerChoice == 'rock'){
+            alert("Computer won");
+        } else{
+            alert("Player won");
+        }
+    }else if(playerChoice == 'spock'){
+        if(computerChoice == 'paper' || computerChoice == 'lizard'){
+            alert("Computer won");
+        } else{
+            alert("Player won");
+        }
+    }
+  
+}            
+
+function incrementWinner(){
+
 }
 
-/**
- * The main game function. Accepts one parameter, which
- * is the data-choice value of the selected button
- */
-function playGame(playerChoice) {
+function incrementLoser(){
 
-    playerImage.src = `assets/images/${choices[playerChoice]}.png`;
-    playerImage.alt = choices[playerChoice];
-   
-    let computerChoice = Math.floor(Math.random() * 5);
-
-    computerImage.src = `assets/image/${choices [computerChoice]}.png`;
-    computerImage.alt = choice[computerChoice];
 }
