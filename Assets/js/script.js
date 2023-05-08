@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const computerChoice = choices[Math.floor(Math.random() * choices.length)];
         console.log(computerChoice);
         console.log(playerChoice);
-        let result = getResult(playerChoice, computerChoice);
-        displayResult(playerChoice, computerChoice, result);
+        displayResult(playerChoice, computerChoice, getResult(playerChoice,computerChoice));
         });
     }
 });
@@ -18,47 +17,59 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function getResult(playerChoice, computerChoice){
+    let result = document.getElementById("result");
+
     if (playerChoice === computerChoice) {
-		alert("tie");
+		
+        document.getElementById("result").innerText = "Tie"
     }else if(playerChoice == 'rock'){
         if(computerChoice == 'paper' || computerChoice == 'spock'){
-            alert("Computer won");
+            
+            document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            alert("Player won");
+            
             incrementPlayer();
+            document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'scissors'){
         if(computerChoice == 'rock' || computerChoice == 'spock'){
-            alert("Computer won");
+            
+            document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            alert("Player won");
+            
             incrementPlayer();
+            document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'paper'){
         if(computerChoice == 'scissors' || computerChoice == 'lizard'){
-            alert("Computer won");
+            
+            document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            alert("Player won");
             incrementPlayer();
+            document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'lizard'){
         if(computerChoice == 'scissors' || computerChoice == 'rock'){
-            alert("Computer won");
+            
+            document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
             alert("Player won");
             incrementPlayer();
+            document.getElementById("result").innerText = "Player Won"
         }
     }else if(playerChoice == 'spock'){
         if(computerChoice == 'paper' || computerChoice == 'lizard'){
-            alert("Computer won");
+            
+            document.getElementById("result").innerText = "Computer Won"
             incrementComputer();
         } else{
-            alert("Player won");
+            
             incrementPlayer();
+            document.getElementById("result").innerText = "Player Won"
         }
     }
   
@@ -75,8 +86,8 @@ function incrementComputer(){
 }
 
 function displayResult(playerChoice, computerChoice) {
-    let playerImage = `<img class="display-img" src="${playerChoice}.png">`
-    let computerImage = `<img class="display-img" src="${computerChoice}.png">`
+    let playerImage = `<img class="display-img" src="Assets/images/${playerChoice}.png">`
+    let computerImage = `<img class="display-img" src="Assets/images/${computerChoice}.png">`
 
     document.getElementById("player-choice").innerHTML = playerImage;
     document.getElementById("computer-choice").innerHTML = computerImage;
