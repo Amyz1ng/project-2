@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const playerChoice = this.getAttribute("data-type");
         const choices = ["rock", "paper", "scissors", "spock", "lizard"];
         const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-        console.log(computerChoice);
-        console.log(playerChoice);
         displayResult(playerChoice, computerChoice, getResult(playerChoice,computerChoice));
         });
     }
