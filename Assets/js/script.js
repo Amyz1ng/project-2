@@ -21,43 +21,43 @@ function getResult(playerChoice, computerChoice){
         document.getElementById("result").innerText = "Tie"
     }else if(playerChoice == 'rock'){
         if(computerChoice == 'paper' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "Computer Won"
+            document.getElementById("result").innerText = "ish you got rekt"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Player Won"
+            document.getElementById("result").innerText = "awe bru you Won"
         }
     }else if(playerChoice == 'scissors'){
         if(computerChoice == 'rock' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "Computer Won"
+            document.getElementById("result").innerText = "ish you got rekt"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Player Won"
+            document.getElementById("result").innerText = "awe bru you Won"
         }
     }else if(playerChoice == 'paper'){
         if(computerChoice == 'scissors' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Computer Won"
+            document.getElementById("result").innerText = "Eish you got rekt"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Player Won"
+            document.getElementById("result").innerText = "Awe bru you Won"
         }
     }else if(playerChoice == 'lizard'){
         if(computerChoice == 'scissors' || computerChoice == 'rock'){
-            document.getElementById("result").innerText = "Computer Won"
+            document.getElementById("result").innerText = "Eish you got rekt"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Player Won"
+            document.getElementById("result").innerText = "Awe bru you Won"
         }
     }else if(playerChoice == 'spock'){
         if(computerChoice == 'paper' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Computer Won"
+            document.getElementById("result").innerText = "Eish you got rekt"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Player Won"
+            document.getElementById("result").innerText = "Awe bru you Won"
         }
     }
   
@@ -76,7 +76,7 @@ function incrementComputer(){
 function displayResult(playerChoice, computerChoice) {
     let playerImage = `<img class="display-img" src="Assets/images/${playerChoice}.png">`
     let computerImage = `<img class="display-img" src="Assets/images/${computerChoice}.png">`
-
+0
     document.getElementById("player-choice").innerHTML = playerImage;
     document.getElementById("computer-choice").innerHTML = computerImage;
 }

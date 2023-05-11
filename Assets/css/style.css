@@ -27,25 +27,38 @@ font-size: 40px;
 
 .player{
    font-size: 20px;
+   float: left;
+   width: 50%;
 }
 
 .computer {
     font-size: 20px;
+   float:left;
+   width: 50%;
 }
+
 
 .result-wrapper {
     text-align: center;
 }
 #player-choice{
     display:inline-block;
+    position: relative;
+    right:15%;
 }
 #computer-choice{
     display:inline-block;
+    position: relative;
+    left:15%;
 }
 
 #result {
     font-size: 40px;
-    line-height: 1.6;
+    display: inline-block;
+    position: relative;
+    bottom:75px;
+    padding: 0%;
+    margin: 0%;
 }
 
 #play-again {
@@ -64,7 +77,12 @@ p {
 }
 /* Images */
 
-
+.display-img{
+    width: 250px;
+    height:250px;
+   
+    
+}
 
 .rules-img{
    display: inline-block;
@@ -92,11 +110,85 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-    background-color: lightblue;}}
+    background-color: lightblue;
+    width: 100%;
+    font-size: 10px;
+    }
+
+    .choices button{
+        font-size: 20px;
+       display: inline-block;
+        /*text-align: center;*/
+        width: 30%;
+        
+
+    }
+    .choices{
+        text-align: center;
+    }
+
+    /*.result-wrapper{
+        font-size: 20px;
+    }*/
+    #player-choice {
+        position: static;
+        left: 0;
+    }
+
+    #computer-choice {
+        position: static;
+        right: 0;
+    }
+
+    #result{
+        bottom: 0px;
+    }
+    .player{
+        padding-left: ;
+        
+        width: 40%;
+    }
+
+    .computer{
+        padding-right: ;
+        width: 60%;
+    }
+
+    .result-wrapper{
+        font-size: 20px;
+    }
+
+    .rules-img img {
+        width: 130px;
+        height: 130px;
+    }
+    .rules-child{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Instructions h2{
+        font-size: 20px;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    body{
+        font-size: 20px;
+    }
+    #player-choice {
+        position: static;
+        left: 0;
+    }
+    #computer-choice {
+        position: static;
+        right: 0;
+    }
 
+    #result{
+        bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
