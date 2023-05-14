@@ -1,12 +1,13 @@
 body{
     background-color: lightgrey;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
     text-align: center;
 }
-h1 {
-    
-}
+
+
 
 .choices p {
     
@@ -17,13 +18,11 @@ h1 {
 .choices {
 font-size: 30px;
 }
+
 .choice {
 font-size: 40px;
 }
 
-#messages {
-    
-}
 
 .player{
    font-size: 20px;
@@ -32,7 +31,7 @@ font-size: 40px;
 }
 
 .computer {
-    font-size: 20px;
+   font-size: 20px;
    float:left;
    width: 50%;
 }
@@ -59,6 +58,7 @@ font-size: 40px;
     bottom:75px;
     padding: 0%;
     margin: 0%;
+    min-width: 30%;
 }
 
 #play-again {
@@ -72,7 +72,7 @@ h2 {
 p {
     text-align: center;
     font-size: 25px;
-    line-height: 2.6;
+    margin-right: 10px;
     
 }
 /* Images */
@@ -80,13 +80,16 @@ p {
 .display-img{
     width: 250px;
     height:250px;
-   
-    
+     
 }
 
 .rules-img{
    display: inline-block;
    
+}
+
+.rules-img img{
+    height: 230px;
 }
 .rules-child{
     display: inline-block;
@@ -115,21 +118,40 @@ p {
     font-size: 10px;
     }
 
+    .container h1{
+        font-size: 25px;
+
+    }
+
     .choices button{
         font-size: 20px;
        display: inline-block;
         /*text-align: center;*/
         width: 30%;
-        
-
     }
     .choices{
         text-align: center;
     }
 
-    /*.result-wrapper{
-        font-size: 20px;
-    }*/
+    .choices p{
+        font-size: 18px;
+    }
+    .player {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .computer {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .player h3{
+        margin: 0;
+    }
+    .computer h3{
+        margin: 0;
+    }
+
+    
     #player-choice {
         position: static;
         left: 0;
@@ -143,16 +165,7 @@ p {
     #result{
         bottom: 0px;
     }
-    .player{
-        padding-left: ;
-        
-        width: 40%;
-    }
-
-    .computer{
-        padding-right: ;
-        width: 60%;
-    }
+   
 
     .result-wrapper{
         font-size: 20px;
@@ -167,9 +180,33 @@ p {
         text-align: center;
     }
 
-    .Instructions h2{
+    .instructions h2{
         font-size: 20px;
     }
+    .instructions p {
+        font-size: 15px;
+        text-align: center;
+        /*margin: 5px 0;
+        padding: 2px 0;*/
+        line-height: 20px;  
+    }
+
+    .rules h2{
+        font-size: 20px;
+    }
+    .display-img {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    #result {
+        font-size: 20px;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -188,6 +225,17 @@ p {
 
     #result{
         bottom: 0px;
+    }
+    .instructions p {
+        font-size: 20px;
+    }
+
+    .player {
+        width: 100%;
+    }
+
+    .computer {
+        width: 100%;
     }
 }
 
