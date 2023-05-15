@@ -21,43 +21,43 @@ function getResult(playerChoice, computerChoice){
         document.getElementById("result").innerText = "Tie"
     }else if(playerChoice == 'rock'){
         if(computerChoice == 'paper' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "ish you got rekt"
+            document.getElementById("result").innerText = "Aww you lost! Try again"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "awe bru you Won"
+            document.getElementById("result").innerText = "You Rock!! "
         }
     }else if(playerChoice == 'scissors'){
         if(computerChoice == 'rock' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "ish you got rekt"
+            document.getElementById("result").innerText = "Better luck next time"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "awe bru you Won"
+            document.getElementById("result").innerText = "Alright lets go"
         }
     }else if(playerChoice == 'paper'){
         if(computerChoice == 'scissors' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Eish you got rekt"
+            document.getElementById("result").innerText = "Try Again"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Awe bru you Won"
+            document.getElementById("result").innerText = "Congrats you Won!!!"
         }
     }else if(playerChoice == 'lizard'){
         if(computerChoice == 'scissors' || computerChoice == 'rock'){
-            document.getElementById("result").innerText = "Eish you got rekt"
+            document.getElementById("result").innerText = "Better luck next time"
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Awe bru you Won"
+            document.getElementById("result").innerText = "You're the winner"
         }
     }else if(playerChoice == 'spock'){
         if(computerChoice == 'paper' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Eish you got rekt"
+            document.getElementById("result").innerText = "Oh no, you lost. =("
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Awe bru you Won"
+            document.getElementById("result").innerText = "You're the Champ =D"
         }
     }
   
