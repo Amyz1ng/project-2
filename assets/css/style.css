@@ -141,22 +141,7 @@ p {
 }
 
 /* Media Queries*/
-@media only screen and (max-width: 380px){
 
-    .choice {
-        margin: 0 7px;
-        padding: 2px;
-        border: 2px solid;
-        width: 35px;
-        height: 35px;
-        font-size: 1.4rem;
-    }
-    .choice::after {
-        font-size: 0.4rem;
-        left:-0.4rem;
-    }
-
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 900px) {
     body {
@@ -331,6 +316,22 @@ p {
 display: inline-block;
 position: relative;
 }
+}
+@media only screen and (max-width: 380px){
+
+    .choice {
+        margin: 0 7px;
+        padding: 2px;
+        border: 2px solid;
+        width: 35px;
+        height: 35px;
+        font-size: 1.4rem;
+    }
+    .choice::after {
+        font-size: 0.46rem;
+        left:-0.2rem;
+    }
+
 }
 
 
