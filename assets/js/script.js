@@ -74,8 +74,8 @@ function incrementComputer(){
 }
 
 function displayResult(playerChoice, computerChoice) {
-    let playerImage = `<img class="display-img" src="Assets/images/${playerChoice}.png">`
-    let computerImage = `<img class="display-img" src="Assets/images/${computerChoice}.png">`
+    let playerImage = `<img class="display-img" src="assets/images/${playerChoice}.png">`
+    let computerImage = `<img class="display-img" src="assets/images/${computerChoice}.png">`
 0
     document.getElementById("player-choice").innerHTML = playerImage;
     document.getElementById("computer-choice").innerHTML = computerImage;
