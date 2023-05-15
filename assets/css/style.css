@@ -52,7 +52,9 @@ padding-bottom: 50px;
     left: -0.5em;
 }
 
-
+.instructions p {
+    font-family: 'lato';
+}
 
 .player{
    font-size: 20px;
@@ -94,11 +96,6 @@ padding-bottom: 50px;
     font-family: 'Bebas Neue';
 }
 
-#play-again {
-background-color: aqua; 
-font-size: large;
-}
-
 h2 {
     text-align: center;
 }
@@ -128,6 +125,8 @@ p {
     display: inline-block;
     text-align: left;
     vertical-align: top;
+    font-family: 'lato';
+    font-size: 19px;
 }
 .rules{
     text-align: center;
@@ -142,7 +141,22 @@ p {
 }
 
 /* Media Queries*/
+@media only screen and (max-width: 380px){
 
+    .choice {
+        margin: 0 7px;
+        padding: 2px;
+        border: 2px solid;
+        width: 35px;
+        height: 35px;
+        font-size: 1.4rem;
+    }
+    .choice::after {
+        font-size: 0.4rem;
+        left:-0.4rem;
+    }
+
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 900px) {
     body {
@@ -264,6 +278,7 @@ p {
     }
     .instructions p {
         font-size: 20px;
+        line-height: 25px;
     }
 
     .player {
@@ -274,7 +289,19 @@ p {
         width: 100%;
     }
 }
-
+@media only screen and (min-width: 600px) {
+    #result{
+        width: 30%;
+    }
+    #player-choice{
+        display: inline-block;
+        right: 2%;
+    }
+    #computer-choice{
+        display: inline-block;
+        left: 2%;
+    }
+    }
 @media only screen and (max-width: 768px) {
     .container h1{
         font-size: 20px;
@@ -295,5 +322,16 @@ p {
 }
 
 }
+@media screen and (orientation: landscape){
+#player-choice {
+    display: inline-block;
+    position: relative;
+}
+#computer-choice {
+display: inline-block;
+position: relative;
+}
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Audiowide&family=Bebas+Neue&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
