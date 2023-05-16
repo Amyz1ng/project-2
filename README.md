@@ -1,4 +1,4 @@
-# You can find the Live site here
+# You can find the Live site [here](https://amyz1ng.github.io/project-2/)
 
 User Experience (UX)
 User Stories
@@ -17,7 +17,7 @@ HTML5
 CSS
 JavaScript
 
-##Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 Font Awesome used for icons.
 Google Fonts used to import 'Lato, Oswald, Audiowide, Amatic SC,Bebas Neue' fonts.
 GitHub used to host repository.
@@ -26,10 +26,10 @@ GitHub Pages used to deploy the site.
 Lighthouse for performance review.
 AmIResponsive used to check site was responsive on different screen sizes.
 
-##TESTING
+## TESTING
 I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header, reservation, contact and gallery text is all readable and easy to understand. I confirm that the form works: requires entries in every feild, will only accept email address in the email feild and the submit button works.
 
-##VALIDATOR TESTING
+## VALIDATOR TESTING
 
 HTML
 
@@ -57,7 +57,7 @@ Microsoft Edge
 Opera
 Mozilla Firefox
 
-###AmIResponsive
+### AmIResponsive
 When there were devices/browsers that I didn't have access to, I used https://ui.dev/amiresponsive to make sure that the site was responsive.
 
 ## Deployment
@@ -73,7 +73,7 @@ Click the save button.
 The site is now published though it may not be accesible straight away.
 The site URL will be visable on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
 
-#Cloning Project
+# Cloning Project
 Log into GitHub.
 Locate the repository.
 Click the 'Code' dropdown above the file list.
@@ -84,7 +84,7 @@ Type git clone in the CLI and then paste the URL you copied earlier. This is wha
 $ git clone https://github.com/Amyz1ng/Project-1-Restaurant.git
 Press Enter to create your local clone.
 
-#Credits
-##CONTENT
+# Credits
+## CONTENT
 
-##MEDIA
+## MEDIA
