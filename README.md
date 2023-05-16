@@ -31,7 +31,7 @@ GitHub Pages used to deploy the site.
 Lighthouse for performance review.
 AmIResponsive used to check site was responsive on different screen sizes.
 
-##Wireframes
+## Wireframes
 
 ### Desktop
 ![Wireframes](https://github.com/Amyz1ng/project-2/assets/124196828/e5f335fc-aa0f-4e91-b715-71e9dd97b93c)
