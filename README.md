@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# You can find the Live site here
 
-Welcome,
+User Experience (UX)
+User Stories
+As a user, I want to understand what the business is at first look.
+As a user, I want to see what is avaliable to order.
+As a user, I want to be able to get in contact with the business through a contact.
+As a user, I want to be able to find the business with a location.
+As a user, I want to be able to make a reservation using a form.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Design
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
 
-## Codeanywhere Reminders
+## Technologies Used
+### Languages Used
+HTML5
+CSS
+JavaScript
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+##Frameworks, Libraries & Programs Used
+Font Awesome used for icons.
+Google Fonts used to import 'Lato, Oswald, Audiowide, Amatic SC,Bebas Neue' fonts.
+GitHub used to host repository.
+GitPod used to develop project and orgainse version control.
+GitHub Pages used to deploy the site.
+Lighthouse for performance review.
+AmIResponsive used to check site was responsive on different screen sizes.
 
-`python3 -m http.server`
+##TESTING
+I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header, reservation, contact and gallery text is all readable and easy to understand. I confirm that the form works: requires entries in every feild, will only accept email address in the email feild and the submit button works.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+##VALIDATOR TESTING
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+HTML
 
-`http_server`
+CSS
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+JAVASCRIPT
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## BUGS
+No bugs found
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing User Stories from (UX) Section
 
-To log into the Heroku toolbelt CLI:
+Further Testing
+Personal Testing
+I tested on a few decides I have at home, as listed below:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Phone:
+Oppo Reno 5
+Google Chrome
+Samsung Internet
+Computer
+27" Gaming PC
+Google Chrome
+Microsoft Edge
+Opera
+Mozilla Firefox
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+###AmIResponsive
+When there were devices/browsers that I didn't have access to, I used https://ui.dev/amiresponsive to make sure that the site was responsive.
 
----
+## Deployment
+Deployment through GitHub Pages
+This site was deployed through GitHub Pages using the following steps:
 
-Happy coding!
+Log into GitHub.
+Locate the repository.
+Locate the settings option along the options bar.
+Locate GitHub Pages options towards the bottom of the page.
+In 'Source' dropdown, select 'Master' from the branch options.
+Click the save button.
+The site is now published though it may not be accesible straight away.
+The site URL will be visable on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
+
+#Cloning Project
+Log into GitHub.
+Locate the repository.
+Click the 'Code' dropdown above the file list.
+Copy the URL for the repository.
+Open Git Bash on your device.
+Change the current working directory to the location where you want the cloned directory.
+Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
+$ git clone https://github.com/Amyz1ng/Project-1-Restaurant.git
+Press Enter to create your local clone.
+
+#Credits
+##CONTENT
+
+##MEDIA
