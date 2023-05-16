@@ -12,7 +12,8 @@ As a user, I want to be able to make a reservation using a form.
 
 # Design
 
-
+### Overall Feel
+The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
 ## Technologies Used
 
 ### Languages Used
@@ -21,6 +22,7 @@ CSS
 JavaScript
 
 ## Frameworks, Libraries & Programs Used
+
 Font Awesome used for icons.
 Google Fonts used to import 'Lato, Oswald, Audiowide, Amatic SC,Bebas Neue' fonts.
 GitHub used to host repository.
@@ -28,6 +30,14 @@ GitPod used to develop project and orgainse version control.
 GitHub Pages used to deploy the site.
 Lighthouse for performance review.
 AmIResponsive used to check site was responsive on different screen sizes.
+
+##Wireframes
+
+### Desktop
+![Wireframes](https://github.com/Amyz1ng/project-2/assets/124196828/e5f335fc-aa0f-4e91-b715-71e9dd97b93c)
+### Mobile
+
+![wireframe mobile](https://github.com/Amyz1ng/project-2/assets/124196828/61545b4c-2c58-4897-a42b-bbaf9d43e3d2)
 
 ## TESTING
 I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header text is all readable and easy to understand.
@@ -96,9 +106,16 @@ This site was deployed through GitHub Pages using the following steps:
 # Credits
 ## CONTENT
 
+The inspiration for the rounded responsive buttons code  was taken from [Love Maths project](https://github.com/Amyz1ng/love-maths)
+
 ## MEDIA
+
 Background image was taken from [Pixabay](https://pixabay.com/videos/particles-plexus-network-glowing-27669/)
 
 images for the computer and player were taken from [bigbangtheory.fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock?file=RPSLS.png)
 
 Rules image was from a [wikipedia search engine](https://en.wikipedia.org/wiki/File:Rock_paper_scissors_lizard_spock.png)
+
+[Font awesome](https://fontawesome.com/)
+
+[google fonts](https://fonts.google.com/)
