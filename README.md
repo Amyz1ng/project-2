@@ -1,7 +1,9 @@
 # You can find the Live site [here](https://amyz1ng.github.io/project-2/)
 
-User Experience (UX)
-User Stories
+This site i have created is a responsive game testing my knowledge in Html, Css and Javascript i have decided to take on Rock-paper-scissors-lizard-Spock as my project. This is a five-gesture expansion of the classic selection method game rock-paper-scissors.
+
+## User Experience (UX)
+### User Stories
 As a user, I want to understand what the business is at first look.
 As a user, I want to see what is avaliable to order.
 As a user, I want to be able to get in contact with the business through a contact.
@@ -27,7 +29,7 @@ Lighthouse for performance review.
 AmIResponsive used to check site was responsive on different screen sizes.
 
 ## TESTING
-I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header, reservation, contact and gallery text is all readable and easy to understand. I confirm that the form works: requires entries in every feild, will only accept email address in the email feild and the submit button works.
+I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header text is all readable and easy to understand.
 
 ## VALIDATOR TESTING
 
@@ -39,6 +41,10 @@ JAVASCRIPT
 
 ## BUGS
 No bugs found
+
+## ACCESSIBILITY  
+I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+I have run a test for mobile which is the first image and the second image is the lighthouse test on desktop as seen down below.
 
 ## Testing User Stories from (UX) Section
 
@@ -81,7 +87,7 @@ Copy the URL for the repository.
 Open Git Bash on your device.
 Change the current working directory to the location where you want the cloned directory.
 Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
-$ git clone https://github.com/Amyz1ng/Project-1-Restaurant.git
+$ git clone (link here)
 Press Enter to create your local clone.
 
 # Credits
