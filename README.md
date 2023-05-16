@@ -55,7 +55,7 @@ Personal Testing
 I tested on a few decides I have at home, as listed below:
 
 #### Phone:
--Oppo Reno 5
+- Oppo Reno 5
   - Google Chrome
   - Samsung Internet
 
@@ -97,3 +97,8 @@ This site was deployed through GitHub Pages using the following steps:
 ## CONTENT
 
 ## MEDIA
+Background image was taken from [Pixabay](https://pixabay.com/videos/particles-plexus-network-glowing-27669/)
+
+images for the computer and player were taken from [bigbangtheory.fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock?file=RPSLS.png)
+
+Rules image was from a [wikipedia search engine](https://en.wikipedia.org/wiki/File:Rock_paper_scissors_lizard_spock.png)
