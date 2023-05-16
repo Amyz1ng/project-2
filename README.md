@@ -14,6 +14,7 @@ As a user, I want to be able to make a reservation using a form.
 
 
 ## Technologies Used
+
 ### Languages Used
 HTML5
 CSS
@@ -33,11 +34,11 @@ I tested that this page works in different browsers, chrome, brave, firefox, mic
 
 ## VALIDATOR TESTING
 
-HTML
+[HTML](https://en.wikipedia.org/wiki/HTML5)
 
-CSS
+[CSS](https://en.wikipedia.org/wiki/CSS)
 
-JAVASCRIPT
+[JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 ## BUGS
 No bugs found
@@ -48,20 +49,22 @@ I have run a test for mobile which is the first image and the second image is th
 
 ## Testing User Stories from (UX) Section
 
-Further Testing
+### Further Testing
+
 Personal Testing
 I tested on a few decides I have at home, as listed below:
 
-Phone:
-Oppo Reno 5
-Google Chrome
-Samsung Internet
-Computer
-27" Gaming PC
-Google Chrome
-Microsoft Edge
-Opera
-Mozilla Firefox
+#### Phone:
+-Oppo Reno 5
+  - Google Chrome
+  - Samsung Internet
+
+#### Computer
+- 27" Gaming PC
+  - Google Chrome
+  - Microsoft Edge
+  - Opera
+  - Mozilla Firefox
 
 ### AmIResponsive
 When there were devices/browsers that I didn't have access to, I used https://ui.dev/amiresponsive to make sure that the site was responsive.
@@ -70,25 +73,25 @@ When there were devices/browsers that I didn't have access to, I used https://ui
 Deployment through GitHub Pages
 This site was deployed through GitHub Pages using the following steps:
 
-Log into GitHub.
-Locate the repository.
-Locate the settings option along the options bar.
-Locate GitHub Pages options towards the bottom of the page.
-In 'Source' dropdown, select 'Master' from the branch options.
-Click the save button.
-The site is now published though it may not be accesible straight away.
-The site URL will be visable on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
+1. Log into [GitHub.](http://github.com/)
+2. Locate the [repository.](https://github.com/Amyz1ng/project-2)
+3. Locate the settings option along the options bar.
+4. Locate GitHub Pages options towards the bottom of the page.
+5. In 'Source' dropdown, select 'Master' from the branch options.
+6. Click the save button.
+7. The site is now published though it may not be accesible straight away.
+8. The site URL will be visable on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
 
 # Cloning Project
-Log into GitHub.
-Locate the repository.
-Click the 'Code' dropdown above the file list.
-Copy the URL for the repository.
-Open Git Bash on your device.
-Change the current working directory to the location where you want the cloned directory.
-Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
-$ git clone (link here)
-Press Enter to create your local clone.
+1. Log into [GitHub.](http://github.com/)
+2. Locate the [repository.](https://github.com/Amyz1ng/project-2)
+3. Click the 'Code' dropdown above the file list.
+4. Copy the URL for the repository.
+5. Open Git Bash on your device.
+6. Change the current working directory to the location where you want the cloned directory.
+7. Type git clone in the CLI and then paste the URL you copied earlier. This is what it should look like:
+- $ git clone https://github.com/Amyz1ng/project-2.git
+8. Press Enter to create your local clone.
 
 # Credits
 ## CONTENT
