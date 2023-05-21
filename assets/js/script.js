@@ -1,15 +1,27 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
+    let maxAttempts = 5; 
 
     for (let button of buttons) {
         button.addEventListener("click", function() {
-        const playerChoice = this.getAttribute("data-type");
-        const choices = ["rock", "paper", "scissors", "spock", "lizard"];
-        const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-        displayResult(playerChoice, computerChoice, getResult(playerChoice,computerChoice));
+            if (maxAttempts > 0) { 
+                const playerChoice = this.getAttribute("data-type");
+                const choices = ["rock", "paper", "scissors", "spock", "lizard"];
+                const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+                displayResult(playerChoice, computerChoice, getResult(playerChoice, computerChoice));
+
+                maxAttempts--; 
+                if (maxAttempts === 0) {
+                    document.getElementById("result").innerText += " No more attempts left. Game over!";
+                    showPlayAgainButton();
+                }
+            }
         });
     }
+
+    document.getElementById("play-again").addEventListener("click", function() {
+        resetGame();
+    });
 });
 
 
@@ -76,7 +88,27 @@ function incrementComputer(){
 function displayResult(playerChoice, computerChoice) {
     let playerImage = `<img class="display-img" src="assets/images/${playerChoice}.png">`
     let computerImage = `<img class="display-img" src="assets/images/${computerChoice}.png">`
-0
+
     document.getElementById("player-choice").innerHTML = playerImage;
     document.getElementById("computer-choice").innerHTML = computerImage;
 }
+
+
+function resetGame(){
+    document.getElementById("player-score").innerText="0";
+    document.getElementById("computer-score").innerText="0";
+    document.getElementById("result").innerText="";
+    document.getElementById("player-choice").innerHTML="";
+    document.getElementById("computer-choice").innerHTML="";
+    maxAttempts = 5;
+    location.reload();
+}
+
+
+function showPlayAgainButton() {
+    document.getElementById("play-again").style.display = "block";
+   
+}
+
+
+
