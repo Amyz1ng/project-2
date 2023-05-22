@@ -1,6 +1,7 @@
+let maxAttempts = 5;
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
-    let maxAttempts = 5; 
 
     for (let button of buttons) {
         button.addEventListener("click", function() {
@@ -101,7 +102,7 @@ function resetGame(){
     document.getElementById("player-choice").innerHTML="";
     document.getElementById("computer-choice").innerHTML="";
     maxAttempts = 5;
-    location.reload();
+    document.getElementById("play-again").style.display = "none"; 
 }
 
 
