@@ -2,7 +2,7 @@ body{
     background-color: lightgrey;
     margin: 0px;
     padding: 0px;
-    color: aliceblue;
+    color: white;
     
 }
 #myVideo {
@@ -12,7 +12,7 @@ body{
     min-width: 100%;
     min-height: 100%;
     z-index: -5;
-    opacity: 0.95;
+   
   }
 
 .container{
@@ -49,13 +49,14 @@ padding-bottom: 50px;
 .choice::after{
     content: attr(data-type);
     font-size: 1rem;
-    color: aliceblue;
+    color: white;
     position: relative;
     left: -0.5em;
 }
 
 .instructions p {
     font-family: 'lato';
+    color: white;
     
 }
 
