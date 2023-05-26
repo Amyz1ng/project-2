@@ -57,6 +57,9 @@ No bugs found
 I confirm that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 I have run a test for mobile which is the first image and the second image is the lighthouse test on desktop as seen down below.
 
+### Desktop
+![desktop lighthouse](https://github.com/Amyz1ng/project-2/assets/124196828/cd416b40-ebb8-4b9a-b282-4afd96862061)
+
 ## Testing User Stories from (UX) Section
 
 ### Further Testing
