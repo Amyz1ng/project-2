@@ -319,7 +319,9 @@ position: relative;
 }
 
 #play-again {
-    color:aliceblue;
+    color:black;
     display: none;
+    text-align: center;
+    
 }
 
