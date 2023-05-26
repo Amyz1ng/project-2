@@ -292,6 +292,18 @@ p {
     .computer {
         width: 100%;
     }
+    .choice {
+        margin: 0 20px;
+        padding: 5px;
+        border: 6px solid;
+        width: 80px;
+        height: 80px;
+        font-size: 3rem;
+    }
+    .choice::after {
+        font-size: 0.9rem;
+        left:-0.3rem;
+    }
 }
 @media only screen and (min-width: 600px) {
     #result{
@@ -325,7 +337,9 @@ p {
     padding: 5px 0;
 }
 
+
 }
+
 @media screen and (orientation: landscape){
 #player-choice {
     display: inline-block;
