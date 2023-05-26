@@ -60,6 +60,19 @@ padding-bottom: 50px;
     
 }
 
+#play-again {
+    color:white;
+    font-size: large;
+    display: none;
+    width: 170px;
+    height: 70px;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgb(226, 109, 109);
+}
+
+
 .player{
    font-size: 20px;
    float: left;
@@ -324,15 +337,21 @@ position: relative;
 }
 }
 
-#play-again {
-    color:white;
-    font-size: large;
-    display: none;
-    width: 170px;
-    height: 70px;
-    margin: auto;
-    border-radius: 15px;
-    border: 2px solid white;
-    background-color: rgb(226, 109, 109);
+
+@media only screen and (max-width: 380px){
+
+    .choice {
+        margin: 0 1px;
+        padding: 3px;
+        border: 6px solid;
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+    .choice::after {
+        font-size: 0.45rem;
+        left:-0.3rem;
+    }
+
 }
 
