@@ -2,7 +2,8 @@ let maxAttempts = 5;
 
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
-
+    
+    
     for (let button of buttons) {
         button.addEventListener("click", function() {
             if (maxAttempts > 0) { 
@@ -13,8 +14,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 maxAttempts--; 
                 if (maxAttempts === 0) {
-                    document.getElementById("result").innerText += " No more attempts left. Game over!";
+                    let playerScore = parseInt(document.getElementById("player-score").innerText);
+                    let computerScore = parseInt(document.getElementById("computer-score").innerText);
+
+                    if (playerScore > computerScore) {
+                        document.getElementById("result").innerText = "Game over. Congrats, you won!";
+                    } else if (playerScore < computerScore) {
+                        document.getElementById("result").innerText = "Game over. You lost.";
+                    } else {
+                        document.getElementById("result").innerText = "Game over. It's a tie!";
+                    }
                     showPlayAgainButton();
+                    
                 }
             }
         });
