@@ -1,7 +1,7 @@
 # You can find the Live site [here](https://amyz1ng.github.io/project-2/)
 
 This site i have created is a responsive game testing my knowledge in Html, Css and Javascript i have decided to take on Rock-paper-scissors-lizard-Spock as my project. This is a five-gesture expansion of the classic selection method game rock-paper-scissors.
-![am i responsive](https://github.com/Amyz1ng/project-2/assets/124196828/48bbe916-1621-4110-8614-ad7d1e98790f)
+
 
 ## User Experience (UX)
 ### User Stories
@@ -14,15 +14,18 @@ As a user, I want to be able to easily navigate through the site.
 ### Overall Feel
 The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
 
+## Features
+You have 5 interactive buttons, Rock, Paper, Scissors, Lizard and Spock, which allow the user to play the game.  
+When the game comes to an end, a PLAY AGAIN button will pop up to reset the game to default for the user to start over.  
 ![main game area](https://github.com/Amyz1ng/project-2/assets/124196828/d3bb83be-e796-4daa-86ee-9739eede51da)
 ![instructions](https://github.com/Amyz1ng/project-2/assets/124196828/8a52f90a-d7e7-4e42-b27d-2739d1302711)
 
 ## Technologies Used
 
 ### Languages Used
-HTML5
-CSS
-JavaScript
+- HTML5  
+- CSS  
+- JavaScript  
 
 ## Frameworks, Libraries & Programs Used
 
@@ -47,13 +50,17 @@ I tested that this page works in different browsers, chrome, brave, firefox, mic
 
 ## VALIDATOR TESTING
 
-[HTML](https://en.wikipedia.org/wiki/HTML5)
+[HTML](https://en.wikipedia.org/wiki/HTML5)  
+
 ![html validator](https://github.com/Amyz1ng/project-2/assets/124196828/6b3de22e-7b06-450d-ab26-f5b888686196)
 
-[CSS](https://en.wikipedia.org/wiki/CSS)
+[CSS](https://en.wikipedia.org/wiki/CSS)  
+
 ![css validator](https://github.com/Amyz1ng/project-2/assets/124196828/c9f01fcb-677e-47fd-8729-c2cfd516982e)
 
-[JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
+[JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)  
+
+![javascript validator](https://github.com/Amyz1ng/project-2/assets/124196828/be5ec40b-4c46-4132-b5fa-9fd7fe6e5294)  
 
 ## BUGS
 No bugs found
@@ -91,6 +98,7 @@ I tested on a few decides I have at home, as listed below:
 
 ### AmIResponsive
 When there were devices/browsers that I didn't have access to, I used https://ui.dev/amiresponsive to make sure that the site was responsive.
+![am i responsive](https://github.com/Amyz1ng/project-2/assets/124196828/48bbe916-1621-4110-8614-ad7d1e98790f)
 
 ## Deployment
 Deployment through GitHub Pages
