@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 let maxAttempts = 5;
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -42,46 +43,46 @@ function getResult(playerChoice, computerChoice){
     let result = document.getElementById("result");
 
     if (playerChoice === computerChoice) {
-        document.getElementById("result").innerText = "Tie"
+        document.getElementById("result").innerText = "Tie";
     }else if(playerChoice == 'rock'){
         if(computerChoice == 'paper' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "Aww you lost! Try again"
+            document.getElementById("result").innerText = "Aww you lost! Try again";
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "You Rock!! "
+            document.getElementById("result").innerText = "You Rock!!";
         }
     }else if(playerChoice == 'scissors'){
         if(computerChoice == 'rock' || computerChoice == 'spock'){
-            document.getElementById("result").innerText = "Better luck next time"
+            document.getElementById("result").innerText = "Better luck next time";
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Alright lets go"
+            document.getElementById("result").innerText = "Alright lets go";
         }
     }else if(playerChoice == 'paper'){
         if(computerChoice == 'scissors' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Try Again"
+            document.getElementById("result").innerText = "Try Again";
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "Congrats you Won!!!"
+            document.getElementById("result").innerText = "Congrats you Won!!!";
         }
     }else if(playerChoice == 'lizard'){
         if(computerChoice == 'scissors' || computerChoice == 'rock'){
-            document.getElementById("result").innerText = "Better luck next time"
+            document.getElementById("result").innerText = "Better luck next time";
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "You're the winner"
+            document.getElementById("result").innerText = "You're the winner";
         }
     }else if(playerChoice == 'spock'){
         if(computerChoice == 'paper' || computerChoice == 'lizard'){
-            document.getElementById("result").innerText = "Oh no, you lost. =("
+            document.getElementById("result").innerText = "Oh no, you lost. =(";
             incrementComputer();
         } else{
             incrementPlayer();
-            document.getElementById("result").innerText = "You're the Champ =D"
+            document.getElementById("result").innerText = "You're the Champ =D";
         }
     }
   
@@ -89,17 +90,17 @@ function getResult(playerChoice, computerChoice){
 
 function incrementPlayer(){
     let playerScore = parseInt(document.getElementById("player-score").innerText);
-    document.getElementById("player-score").innerText = ++playerScore
+    document.getElementById("player-score").innerText = ++playerScore;
 }
 
 function incrementComputer(){
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
-    document.getElementById("computer-score").innerText = ++computerScore
+    document.getElementById("computer-score").innerText = ++computerScore;
 }
 
 function displayResult(playerChoice, computerChoice) {
-    let playerImage = `<img class="display-img" src="assets/images/${playerChoice}.png">`
-    let computerImage = `<img class="display-img" src="assets/images/${computerChoice}.png">`
+    let playerImage = `<img class="display-img" src="assets/images/${playerChoice}.png">`;
+    let computerImage = `<img class="display-img" src="assets/images/${computerChoice}.png">`;
 
     document.getElementById("player-choice").innerHTML = playerImage;
     document.getElementById("computer-choice").innerHTML = computerImage;
