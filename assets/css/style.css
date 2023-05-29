@@ -21,10 +21,10 @@ body{
 
 
 
-.choices p {
-    
+.choices h2 {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .choices {
@@ -132,8 +132,8 @@ p {
 }
 
 .rules-img img{
-    height: auto;
-    width: 270px;
+    height: 230px;
+    width: 230px;
 }
 .rules-child{
     display: inline-block;
