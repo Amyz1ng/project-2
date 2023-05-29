@@ -4,9 +4,9 @@ This site i have created is a responsive game testing my knowledge in Html, Css 
 
 ## User Experience (UX)
 ### User Stories
-As a user, I want to be able to see my score as the game progresses.
-As a user, I want to easily replay the game once I have completed a game.
-As a user, I want to be able to easily navigate through the site.
+As a user, I want to be able to see my score as the game progresses.  
+As a user, I want to easily replay the game once I have completed a game.  
+As a user, I want to be able to easily navigate through the site.  
 
 # Design
 
