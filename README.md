@@ -48,8 +48,10 @@ I tested that this page works in different browsers, chrome, brave, firefox, mic
 ## VALIDATOR TESTING
 
 [HTML](https://en.wikipedia.org/wiki/HTML5)
+![html validator](https://github.com/Amyz1ng/project-2/assets/124196828/6b3de22e-7b06-450d-ab26-f5b888686196)
 
 [CSS](https://en.wikipedia.org/wiki/CSS)
+![css validator](https://github.com/Amyz1ng/project-2/assets/124196828/c9f01fcb-677e-47fd-8729-c2cfd516982e)
 
 [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
