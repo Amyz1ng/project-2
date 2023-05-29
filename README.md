@@ -14,6 +14,9 @@ As a user, I want to be able to easily navigate through the site.
 ### Overall Feel
 The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
 
+![main game area](https://github.com/Amyz1ng/project-2/assets/124196828/d3bb83be-e796-4daa-86ee-9739eede51da)
+![instructions](https://github.com/Amyz1ng/project-2/assets/124196828/8a52f90a-d7e7-4e42-b27d-2739d1302711)
+
 ## Technologies Used
 
 ### Languages Used
