@@ -58,9 +58,11 @@ I have run a test for mobile which is the first image and the second image is th
 
 ### Desktop
 ![desktop lighthouse](https://github.com/Amyz1ng/project-2/assets/124196828/cd416b40-ebb8-4b9a-b282-4afd96862061)
+![desktop lighthouse new](https://github.com/Amyz1ng/project-2/assets/124196828/3cd1893b-bc50-4a55-a3d5-ed56f0817d04)
 
 ### Mobile
 
+![mobile lighthouse](https://github.com/Amyz1ng/project-2/assets/124196828/5b2bfa00-d5dc-4234-8bc3-e9c0e6f2dae8)
 
 ## Testing User Stories from (UX) Section
 
