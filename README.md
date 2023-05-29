@@ -23,9 +23,9 @@ When the game comes to an end, a PLAY AGAIN button will pop up to reset the game
 ## Technologies Used
 
 ### Languages Used
-HTML5
-CSS
-JavaScript
+~HTML5  
+~CSS  
+~JavaScript  
 
 ## Frameworks, Libraries & Programs Used
 
