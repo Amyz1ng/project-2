@@ -83,15 +83,16 @@ padding-bottom: 50px;
    
 }
 
-
 .result-wrapper {
     text-align: center;
 }
+
 #player-choice{
     display:inline-block;
     position: relative;
     right:2%;
 }
+
 #computer-choice{
     display:inline-block;
     position: relative;
@@ -112,37 +113,20 @@ padding-bottom: 50px;
 h2 {
     text-align: center;
 }
+
 p {
     text-align: center;
     font-size: 25px;
     margin-right: 10px;
-    
-}
-/* Images */
-
-.display-img{
-    width: 250px;
-    height:250px;
-     
-}
-
-.rules-img{
-   display: inline-block;
-   
-}
-
-.rules-img img{
-    height: 230px;
-    width: 230px;
 }
 .rules-child{
     display: inline-block;
     text-align: left;
     vertical-align: top;
     font-family: 'lato';
-    font-size: 19px;
-    
+    font-size: 19px; 
 }
+
 .rules{
     text-align: center;
 }
@@ -178,6 +162,24 @@ p {
     
     
 }
+/* Images */
+
+.display-img{
+    width: 250px;
+    height:250px;
+     
+}
+
+.rules-img{
+   display: inline-block;
+   
+}
+
+.rules-img img{
+    height: 230px;
+    width: 230px;
+}
+
 
 /* Media Queries*/
 
