@@ -166,6 +166,7 @@ p {
     width: 50%;
     margin: 8vh auto 50px;
     padding-top: 20px;
+    box-sizing: border-box;
     
     
 }
