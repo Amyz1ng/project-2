@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 let maxAttempts = 5;
 
+/* Main function of the game*/
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
     
@@ -38,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+/* Determines the winner between the player and computer choices.*/
 
 function getResult(playerChoice, computerChoice){
     let result = document.getElementById("result");
@@ -87,17 +89,19 @@ function getResult(playerChoice, computerChoice){
     }
   
 }            
-
+/* Increases player score if the winner*/
 function incrementPlayer(){
     let playerScore = parseInt(document.getElementById("player-score").innerText);
     document.getElementById("player-score").innerText = ++playerScore;
 }
 
+/* Increases computer score if the winner*/
 function incrementComputer(){
     let computerScore = parseInt(document.getElementById("computer-score").innerText);
     document.getElementById("computer-score").innerText = ++computerScore;
 }
 
+/*Displays a picture depending on the choices picked between player and computer.*/
 function displayResult(playerChoice, computerChoice) {
     let playerImage = `<img class="display-img" src="assets/images/${playerChoice}.png">`;
     let computerImage = `<img class="display-img" src="assets/images/${computerChoice}.png">`;
@@ -106,7 +110,7 @@ function displayResult(playerChoice, computerChoice) {
     document.getElementById("computer-choice").innerHTML = computerImage;
 }
 
-
+/* Resets the game back to default to allow player to go again*/
 function resetGame(){
     document.getElementById("player-score").innerText="0";
     document.getElementById("computer-score").innerText="0";
@@ -117,7 +121,7 @@ function resetGame(){
     document.getElementById("play-again").style.display = "none"; 
 }
 
-
+/* Once game ends, play again button will appear*/
 function showPlayAgainButton() {
     document.getElementById("play-again").style.display = "block";
    
