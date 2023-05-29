@@ -14,6 +14,9 @@ As a user, I want to be able to easily navigate through the site.
 ### Overall Feel
 The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
 
+## Features
+You have 5 interactive buttons, Rock, Paper, Scissors, Lizard and Spock, which allow the user to play the game.  
+When the game comes to an end, a PLAY AGAIN button will pop up to reset the game to default for the user to start over.  
 ![main game area](https://github.com/Amyz1ng/project-2/assets/124196828/d3bb83be-e796-4daa-86ee-9739eede51da)
 ![instructions](https://github.com/Amyz1ng/project-2/assets/124196828/8a52f90a-d7e7-4e42-b27d-2739d1302711)
 
