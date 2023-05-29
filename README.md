@@ -1,6 +1,7 @@
 # You can find the Live site [here](https://amyz1ng.github.io/project-2/)
 
 This site i have created is a responsive game testing my knowledge in Html, Css and Javascript i have decided to take on Rock-paper-scissors-lizard-Spock as my project. This is a five-gesture expansion of the classic selection method game rock-paper-scissors.
+![am i responsive](https://github.com/Amyz1ng/project-2/assets/124196828/48bbe916-1621-4110-8614-ad7d1e98790f)
 
 ## User Experience (UX)
 ### User Stories
