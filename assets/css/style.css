@@ -132,8 +132,8 @@ p {
 }
 
 .rules-img img{
-    height: 230px;
-    width: auto;
+    height: auto;
+    width: 270px;
 }
 .rules-child{
     display: inline-block;
