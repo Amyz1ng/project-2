@@ -158,8 +158,6 @@ p {
 
 .instruction-block{
     text-align: center;
-   /* margin-bottom: 50px;
-    margin-top: 10vh;*/
     padding-bottom: 30px;
     border: 12px solid rgb(92, 58, 8);
     border-radius: 10px;
@@ -287,6 +285,9 @@ p {
         width: 160px;
         font-size: 15px;
         padding:5px;
+    }
+    .instruction-block{
+        width: 100%;
     }
 }
 
