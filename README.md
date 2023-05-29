@@ -4,16 +4,15 @@ This site i have created is a responsive game testing my knowledge in Html, Css 
 
 ## User Experience (UX)
 ### User Stories
-As a user, I want to understand what the business is at first look.
-As a user, I want to see what is avaliable to order.
-As a user, I want to be able to get in contact with the business through a contact.
-As a user, I want to be able to find the business with a location.
-As a user, I want to be able to make a reservation using a form.
+As a user, I want to be able to see my score as the game progresses.
+As a user, I want to easily replay the game once I have completed a game.
+As a user, I want to be able to easily navigate through the site.
 
 # Design
 
 ### Overall Feel
 The main objective in creating the site was to have it look elegant and simplistic for easy navigation, while still providing the user with all of the information one would want at first sight.
+
 ## Technologies Used
 
 ### Languages Used
@@ -40,7 +39,7 @@ AmIResponsive used to check site was responsive on different screen sizes.
 ![wireframe mobile](https://github.com/Amyz1ng/project-2/assets/124196828/61545b4c-2c58-4897-a42b-bbaf9d43e3d2)
 
 ## TESTING
-I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar. I confirm that the navigation, header text is all readable and easy to understand.
+I tested that this page works in different browsers, chrome, brave, firefox, microsoft edge. I have confirmed that this project is responsive, looks good and functions on all screen sizes using the Devtools device toolbar.
 
 ## VALIDATOR TESTING
 
@@ -59,6 +58,9 @@ I have run a test for mobile which is the first image and the second image is th
 
 ### Desktop
 ![desktop lighthouse](https://github.com/Amyz1ng/project-2/assets/124196828/cd416b40-ebb8-4b9a-b282-4afd96862061)
+
+### Mobile
+
 
 ## Testing User Stories from (UX) Section
 
